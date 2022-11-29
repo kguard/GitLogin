@@ -20,8 +20,9 @@ class LogInFragment : BaseFragment<FragmentLogInBinding>(R.layout.fragment_log_i
             .appendPath("login")
             .appendPath("oauth")
             .appendPath("authorize")
-            .appendQueryParameter("client_id",BuildConfig.CLIENT)
+            .appendQueryParameter("client_id",BuildConfig.CLIENT_ID)
             .build()
+        C
 
     }
 
