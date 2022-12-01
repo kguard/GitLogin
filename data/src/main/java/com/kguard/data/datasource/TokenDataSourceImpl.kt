@@ -15,10 +15,7 @@ class TokenDataSourceImpl @Inject constructor(
         clientSecret: String,
         code: String
     ): AccessToken {
-        Log.e("===", "getAccessToken: ${clientId}, $clientSecret,$code", )
-        val pu =retrofit.create(TokenDataSource::class.java).getAccessToken(clientId,clientSecret,code)
-        Log.e("===", "getAccessToken: ${pu.accessToken}", )
-        return pu
+        return retrofit.create(TokenDataSource::class.java).getAccessToken(clientId,clientSecret,code)
     }
 
 

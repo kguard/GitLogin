@@ -1,4 +1,4 @@
-package com.kguard.gitlogin
+package com.kguard.gitlogin.usecase
 
 import com.kguard.domain.*
 import com.kguard.domain.repository.RepoRepository
