@@ -26,15 +26,13 @@ class UserActivity :  BaseActivity<ActivityUserBinding>(R.layout.activity_user){
             binding.following.text=it.following.toString()
             binding.follower.text=it.followers.toString()
         }
-        binding.logout.setOnClickListener{
-            logout()
+        binding.repo.setOnClickListener{
+            val intent = Intent(applicationContext,RepoActivity::class.java)
+            intent.putExtra("token",token)
+            startActivity(intent)
         }
     }
-    private fun logout() {
-        val intent = Intent(this,MainActivity::class.java)
-        startActivity(intent)
-        finish()
-    }
+
 
 
 

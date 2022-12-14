@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/git/GitLogin/app/src/main/res/drawable/group_4.xml" value="0.333" />
+        <entry key="..\:/git/GitLogin/app/src/main/res/layout/activity_repo.xml" value="0.18489583333333334" />
+        <entry key="..\:/git/GitLogin/app/src/main/res/layout/activity_user.xml" value="0.15177426250534418" />
+        <entry key="..\:/git/GitLogin/app/src/main/res/layout/item_recycler_repo.xml" value="0.33" />
       </map>
     </option>
   </component>
