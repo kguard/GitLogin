@@ -12,7 +12,7 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
-    private lateinit var navController: NavController
+    //private lateinit var navController: NavController
     private val viewModel: MainViewModel by viewModels()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
