@@ -8,7 +8,7 @@ data class Repo(
     val name: String,
     @SerializedName("private")
     val isPrivate: Boolean,
-    val language: String
+    val language: String?
 )
 fun Repo.toDomainRepo() : DomainRepo = DomainRepo(
     id, name, isPrivate, language

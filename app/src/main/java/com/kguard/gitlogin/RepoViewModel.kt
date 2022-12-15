@@ -22,7 +22,7 @@ class RepoViewModel @Inject constructor(
     fun getRepo(token :String)
     {
         viewModelScope.launch {
-            _repo.value=repoUseCase.getRepo(token)
+            _repo.value=repoUseCase.getRepo("bearer $token")
         }
     }
 }
