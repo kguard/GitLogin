@@ -176,11 +176,11 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:backgroundTint="#3F51B5"
-            android:text="REPOSITORY"
+            android:background="@drawable/group_4__2_"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            tools:ignore="SpeakableTextPresentCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

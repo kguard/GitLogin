@@ -1,6 +1,5 @@
 package com.kguard.gitlogin
 
-import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.AttributeSet
